@@ -13,7 +13,7 @@
 #                           {'Gender': 'Female', 'HeightCm': 167, 'WeightKg': 33}
 #                           ]
 
-
+# 1
 def calculate_bmi(dictionary_people_list):
     new_list = []
     for people in dictionary_people_list:
@@ -56,6 +56,7 @@ def calculate_bmi(dictionary_people_list):
     return dictionary_people_list
 
 
+# 2
 def count_of_overweight_people(dictionary_people_list):
     dictionary_people = calculate_bmi(dictionary_people_list)
     count = 0
